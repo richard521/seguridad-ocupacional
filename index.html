@@ -1,274 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Seguridad ocupacional - WEB</title>
+  <head>
+    <meta charset="UFT-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
+    <title>Pausas Activas</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-<!-- Dropdown Structure -->
-<ul id="riesgos" class="dropdown-content">
-  <li><a href="#!">Climatizacion</a></li>
-  <li><a href="#!">Contaminantes biologicos</a></li>
-  <li><a href="#!">Contaminantes quimicos</a></li>
-  <li><a href="#!"riesgos>Iluminacion</a></li>
-  <li><a href="#!">Ondas electromagneticas</a></li>
-  <li><a href="#!">Ruidos</a></li>
-</ul>
-<ul id="planificacion" class="dropdown-content">
-  <li><a href="#!">Maquinaria</a></li>
-  <li><a href="#!">Equipos</a></li>
-  <li><a href="#!">Productos</a></li>
-  <li><a href="#!">Utiles de trabajo</a></li>
-</ul>
-<ul id="prevencion" class="dropdown-content">
-  <li><a href="#!">Consejos basicos</a></li>
-</ul>
-  <nav class="deep-orange darken-3" role="navigation">
-      <ul class="right hide-on-med-and-down">
-        <li><a class="dropdown-button" href="#!" data-activates="prevencion">Prevencion de riesgos</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Evaluacion de riesgos</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="dropdown-button" href="#!" data-activates="planificacion">Planificacion</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="dropdown-button" href="#!" data-activates="riesgos">Riesgos laborales</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Inicio</a></li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-  </nav>
-  <div class="slider">
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+  <body>
+    <header>
+      <nav class="white">
+      <div href="#" class="brand-logo">
+        <img src="images/logo.png">
+      </div>
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#q">Que son pausas activas</a></li>
+          <li><a href="#b">Beneficios</a></li>
+          <li><a href="#e">Ejercicios</a></li>
+          <li><a href="#en">Enfermedades</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#q">Que son pausas activas</a></li>
+          <li><a href="#b">Beneficios</a></li>
+          <li><a href="#e">Ejercicios</a></li>
+          <li><a href="#en">Enfermedades</a></li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    
+    <div class="slider">
     <ul class="slides">
       <li>
-        <img src="images/seguridad.jpg"> <!-- random image -->
+        <img src="images/que-son-1.jpg"> <!-- random image -->
         <div class="caption left-align">
-          <h3>Seguridad y Salud Ocupacional</h3>
+          <h3 class="titulos">Que son las pausas activas</h3>
         </div>
       </li>
       <li>
-        <img src="images/seguridad2.jpg"> <!-- random image -->
+        <img src="images/beneficios.jpg"> <!-- random image -->
         <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3 class="titulos">Beneficios de las pausas activas</h3>
         </div>
       </li>
       <li>
-        <img src="images/seguridad3.jpg"> <!-- random image -->
+        <img src="images/ejercicios1.jpg"> <!-- random image -->
         <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3 class="titulos">Ejercicios</h3>
         </div>
       </li>
-    </ul>
-  </div>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      <li>
+        <img src="images/1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="titulos">Enfermedades laborales</h3>
+        </div>
+      </li>
+     </ul>
+    </div>
+    <div class="cont__que-son row" id="q">
+    <center><h3>Que son pausas activas</h3></center>
+      <div class="img-cont col s12 m6 l8">
+        
+        <img src="images/que-son.jpg">
       </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
-
-    </div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <br><br>
-
-    <div class="section">
-
-    </div>
-  </div>
-  <div class="parallax-container">
-      <div class="parallax"><img src="images/parallax1.jpg"></div>
-    </div>
-    <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="section">
-
-    </div>
-  </div>
-  <div class="parallax-container">
-      <div class="parallax"><img src="images/parallax2.jpg"></div>
-    </div>
-<div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="section">
-
-    </div>
-  </div>
-  <footer class="page-footer deep-orange darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
+      <div class="text-cont col s12 m6 l4">
+        <span class="flow-text 1" align="justify">La salud ocupacional es el conjunto de actividades asociadas a disciplinas variadas, cuyo objetivo es la promoción y mantenimiento del más alto grado posible de bienestar físico, mental y social de los trabajadores de todas las profesiones, promoviendo la adaptación del trabajo al hombre y del hombre a su trabajo.</span>
+        <br>
+        <span class="flow-text" align="justify">Las pausas activas son ejercicios de 15 minutos donde los empleados hacen movimiento de cadera, cuello, manos y piernas con el fin de relajar los músculos que por las largas horas de estar sentados y frente al computador generan tensión en el cuerpo.</span>
       </div>
     </div>
-    <div class="footer-copyright deep-orange darken-1">
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax1.png"></div>
+    </div>
+    <div class="cont__que-son row" id="b">
+    <center><h3>Beneficios de las pausas activas</h3></center>
+      <div class="img-cont1 col s12 m6 l6">
+        
+        <img src="images/beneficios-1.jpg">
+      </div>
+      <div class="text-cont1 col s12 m6 l6">
+        <p class="flow-text" align="justify">Los beneficios de estas prácticas son múltiples, inmediatos y de largo plazo, pues promueven y dinamizan las actividades laborales o áreas de trabajo en su empresa:</p>
+
+        <p class="flow-text" align="justify">*Rompen la rutina de trabajo, reactivan la energía de las personas por lo que su estado de ánimo y de alerta mejora notablemente.</p>
+        <p class="flow-text" align="justify">* Afecta positivamente la relación con los compañeros de trabajo por tratarse de ejercicios grupales, actividades extraordinarias y recreativas.</p>
+        <p class="flow-text" align="justify">* Previene lesiones físicas y mentales. </p>
+        <p class="flow-text" align="justify">* Relaja los miembros corporales más exigidos en el trabajo.</p>
+        <p class="flow-text" align="justify">* Genera conciencia de la salud física y mental entre colaboradores y jefes.</p>
+        <p class="flow-text" align="justify">* Previene afecciones físicas y mentales por exceso de exposición a la pantalla, o en general, por excesiva ejecución de una misma labor.</p>
+        <p class="flow-text" align="justify">Ivonne Porras Parra, fisioterapeuta especializada en entrenamiento físico y osteopatías, aconseja algunos ejercicios básicos para relajar el cuerpo y la mente en el día a día laboral.</p> 
+        <p class="flow-text" align="justify">En todos ellos usted debe conservar la espalda recta, los pies ligeramente separados, las rodillas un poco flexionadas, los movimientos deben ser suaves y pausados y su respiración debe ser la correcta: inhale por la nariz y exhale por la boca.</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax2.png"></div>
+    </div>
+    <div class="cont__que-son row" id="e">
+    <center><h3>Ejercicios de pausas activas</h3></center>
+      <div class="img-cont1 col s12 m6 l6">
+        
+        <img src="images/ejercicios.jpg">
+      </div>
+      <div class="text-cont1 col s12 m6 l6">
+        <p class="flow-text 1" align="justify">Para hacer pausas activas en su trabajo primero hay que tener el compromiso y segundo, las ganas. A continuación, los ejercicios a realizar:</p>
+        <p class="flow-text 1" align="justify">1. Gire la cabeza hacia su lado derecho hasta que su mentón quede casi en la misma dirección que su hombro. Luego hágalo al lado contrario. Repita el ejercicio tres veces.</p>
+        <p class="flow-text 1" align="justify">2. Incline la cabeza hacia atrás y permanezca así por cinco minutos. Vuelva al centro. Baje la cabeza mirando hacia el suelo y sostenga por cinco minutos. Repita tres veces.</p>
+        <p class="flow-text 1" align="justify">3. Estando de pie, separe un poco las piernas e incline las rodillas. Estire sus brazos hacia abajo tanto como su cuerpo resista. Repita tres veces.</p>
+        <p class="flow-text 1" align="justify">4. Estando de pie, suba la rodilla derecha al pecho. Sosténgala con las manos por 10 segundos y cambie de pierna. Repita tres veces en cada lado.</p>
+        <p class="flow-text 1" align="justify">5. Estire los brazos y haga movimientos circulares de las muñecas de forma lenta. Repita tres veces.</p>
+        <p class="flow-text 1" align="justify">6. Entrelazar las manos y llevarlas hacia arriba durante 15 segundos.</p>
+        <p class="flow-text 1" align="justify">7. Realice movimientos circulares de tobillo hacia ambos lados con cada pie.</p>
+        <p class="flow-text 1" align="justify">8. Lleve el brazo hacia atrás tratando de tocar la espalda y sosteniendo el codo con la otra mano.</p>
+        <p class="flow-text 1" align="justify">9. Coloque las manos en su cintura y haga movimientos circulares a ambos lados por cinco segundos.</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax1.png"></div>
+    </div>
+    <div class="cont__que-son row" id="en">
+    <center><h3>Enfermedades laborales</h3></center>
+      <div class="img-cont col s12 m6 l6">
+        
+        <img src="images/2.jpg">
+      </div>
+      <div class="text-cont col s12 m6 l6">
+        <p class="flow-text 1" align="justify">Algunas enfermedades comunes en oficinas y plantas de producción son:</p>
+        <br>
+        <p class="flow-text 1" align="justify">- Enfermedades del aparato respiratorio.</p>
+        <p class="flow-text 1" align="justify">- Lesiones en el túnel del carpo.</p>
+        <p class="flow-text 1" align="justify">- Alteraciones oculares.</p>
+        <p class="flow-text 1" align="justify">- Lesiones osteomusculares (por carga física).</p>
+        <p class="flow-text 1" align="justify">- Accidentes de trabajo (lesiones traumáticas).</p>
+        <p class="flow-text 1" align="justify">- Enfermedades cardiovasculares.</p>
+        <p class="flow-text 1" align="justify">- Alteraciones neurotóxicas (Sistema nervioso).</p>
+        <p class="flow-text 1" align="justify">- Pérdidas de la capacidad auditiva (ruido y algunos contaminantes).</p>
+        <p class="flow-text 1" align="justify">- Alteraciones de la piel.</p>
+        <p class="flow-text 1" align="justify">- Alteraciones psicológicas (carga mental).</p>
+      </div>
+    </div>
+    <footer class="page-footer grey darken-1">
       <div class="container">
-        <p class="copyright">Todos los derechos reservados | Centro de diseño y manufactura del cuero</p>
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Pausas activas</h5>
+            <p class="grey-text text-lighten-4">Las pausas activas son ejercicios de 15 minutos donde los empleados hacen movimiento de cadera, cuello, manos y piernas con el fin de relajar los músculos que por las largas horas de estar sentados y frente al computador generan tensión en el cuerpo.</p>
 
+
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Enlaces relacionados</h5>
+            <ul>
+              <li><a class="white-text" href="#q">Que son pausas activas</a></li>
+              <li><a class="white-text" href="#b">Beneficios</a></li>
+              <li><a class="white-text" href="#e">Ejercicios</a></li>
+              <li><a class="white-text" href="#en">Enfermedades laborales</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
+      <div class="footer-copyright grey darken-2">
+        <div class="container">
+          <center><p class="copyright">Todos los derechos reservados | Centro de diseño y manufactura del cuero</p></center>
+
+        </div>
+      </div>
+    </footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script> 
-        $(document).ready(function(){
-          $(".button-collapse").sideNav();
-          $('.parallax').parallax();
-          $(".dropdown-button").dropdown();
-          $('.slider').slider({
-            indicators: false,
-            interval: 4000,
-            transition: 700,
-            height:  500,
-                   
+    <!--  Scripts-->
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script> 
+          $(document).ready(function(){
+            $(".button-collapse").sideNav();
+            $('.parallax').parallax();
+            $(".dropdown-button").dropdown();
+            $('.slider').slider({
+              indicators: false,
+              interval: 4000,
+              transition: 700,
+              height: 600,
+                     
+            });
           });
-        });
-      </script>
-  </body>
+    </script>
+    </body>
 </html>

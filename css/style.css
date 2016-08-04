@@ -1,17 +1,60 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-.icon-block {
-  padding: 0 15px;
+*{
+	margin: 0;
+	padding: 0;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto Condensed', sans-serif;
 }
-.copyright{
-	text-align: center;
+p, a{
+	font-family: 'Roboto', sans-serif;
+}
+.titulos{
+	font-size: 70px;
+}
+header{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+/*-------------------------------------Estilos menu-------------------------------------*/
+.button-collapse{
+	color: black;
+}
+.hide-on-med-and-down a{
+	color: black;
+}
+.brand-logo img{
+	width: 60%;
+}
+/*---------------------------Estilos_div_que_son---------------------------*/
+.img-cont{
+	max-height: 768px;
+	margin-top: 50px;
+}
+.text-cont{
+	margin-top: 50px;
+	max-height: 768px;
+	background-color: #fff;
+}
+.img-cont img{
+	width: 100%
+}
+.text-cont p{
+	font-size: 18px;
+}
+/*---------------------------Estilos_div_beneficios---------------------------*/
+.img-cont1{
+	max-height: 768px;
+	margin-top: 50px;
+}
+.text-cont1{
+	margin-top: 50px;
+	max-height: 768px;
+	background-color: #fff;
+}
+.img-cont1 img{
+	width: 100%
+}
+.text-cont1 p{
+	font-size: 15px;
 }
